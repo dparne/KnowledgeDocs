@@ -1,3 +1,5 @@
+# List Users
+
 For listing all users (I mean all), run this command:
 
 `sh dscl . list /users`
