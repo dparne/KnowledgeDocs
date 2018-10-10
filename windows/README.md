@@ -22,3 +22,8 @@ C:\>Taskkill /PID 26356 /F
 Also to find out which process is locking a file in windows download this
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer and follow instructions provided.
+
+For finding out process listening on ports 
+
+- Start>>All Programs>>Accessories>>System Tools>>Resource Monitor
+- Click on Listening Ports section
