@@ -1,4 +1,5 @@
-# Fixing Crashes
+# Windows
+## Fixing Crashes
 
 - If Jenkins instance crashes one way to fix it is to run the following commands in the command prompt
 
