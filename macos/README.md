@@ -134,3 +134,11 @@ rabbitmq
 root
 ```
 
+# Notification Center
+
+To stop notifications run these commands
+
+```bash
+killall NotificationCenter
+launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
+```
