@@ -17,7 +17,13 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plis
 ```
 or 
 ```bash
-sudo mdutil -a -i off
+sudo mdutil -a -i on
+```
+
+For reindexing things (Preferrably done overnight)
+
+```bash
+sudo rm -rf /.Spotlight-V100/*
 ```
 
 
