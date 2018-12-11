@@ -156,3 +156,5 @@ To check the maximum number of processes that we can run for user, run
 ```bash
 ulimit -u
 ```
+
+Other useful tips [here](https://wilsonmar.github.io/maximum-limits/)
