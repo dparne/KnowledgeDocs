@@ -148,3 +148,11 @@ To stop notifications run these commands
 killall NotificationCenter
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 ```
+
+# Max Processes for User
+
+To check the maximum number of processes that we can run for user, run
+
+```bash
+ulimit -u
+```
